@@ -164,6 +164,7 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  background-color: #170617;
 }
 .navb {
   display: flex;
@@ -172,12 +173,13 @@ p {
   flex-direction: column;
   background-color: #0B300B;
 }
-.spacewalk {
+.med2cabinet {
   font-size: 4em;
   color: #FFFFFF;
   margin: 0.3em 0;
+  display: flex;
 }
-.spacewalk h1 {
+.med2cabinet h1 {
   color: #FFFFFF;
   font-family: 'Play', sans-serif;
 }
@@ -189,6 +191,7 @@ p {
   color: #FFFFFF;
   width: 45%;
   margin-bottom: 0.6em;
+  text-decoration: none;
 }
 @media (max-width:500px) {
   .navlinks {
@@ -206,48 +209,51 @@ footer {
   align-items: center;
 }
 .home .intro h2 {
+  color: white;
   padding: 15px;
 }
 .home .intro p {
   padding: 0 15px;
 }
-.home .space-images {
+.home .cann-images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
-.home .space-images img {
+.home .cann-images img {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
-.home .visit-planets {
+.home .site-descript {
   padding: 15px;
 }
-.home .visit-planets h3 {
+.home .site-descript h3 {
+  color: white;
   margin-top: 11px;
 }
-.home .visit-planets p {
+.home .site-descript p {
   margin-top: 13px;
 }
-.home .walk {
+.home .signup-info {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
   justify-content: center;
 }
-.home .walk .walk-text {
+.home .signup-info .signup-text {
   width: 50%;
 }
-.home .walk .walk-text h3 {
+.home .signup-info .signup-text h3 {
   margin-bottom: 10px;
+  color: white;
 }
-.home .walk .walk-text p {
+.home .signup-info .signup-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.home .signup-info .signup-text .btn {
   border: 1px solid black;
   background-color: #22283A;
   border-radius: 8px;
@@ -258,41 +264,41 @@ footer {
   padding-top: 2%;
   font-size: 1.4em;
 }
-.home .walk .walk-text .btn:hover {
+.home .signup-info .signup-text .btn:hover {
   background-color: lime;
   color: red;
 }
-.home .walk .walk-img {
+.home .signup-info .sign-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .signup-info .sign-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 /* Mobile Styling */
 @media (max-width:500px) {
-  #sky {
+  #cann2 {
     display: none;
   }
-  #launch {
+  #cann3 {
     display: none;
   }
-  #blast {
+  #cann1 {
     width: 100%;
   }
-  #walk {
+  #signup-info {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 20px;
     padding: 10px 10px;
     width: 100%;
   }
-  #walk-text {
+  #signup-text {
     width: 100%;
   }
-  #walk-img {
+  #sign-img {
     width: 100%;
     margin-left: 0%;
     margin-bottom: 4%;
