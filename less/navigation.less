@@ -1,0 +1,32 @@
+// Navigation code here
+
+.navb {
+    .flex(space-between, center);
+    flex-direction: column;
+    background-color: @nav-bg;
+
+}
+
+.spacewalk {
+    h1{
+        color:#FFFFFF;
+        font-family: 'Play', sans-serif;
+    }
+    .fontstyle(4em,#FFFFFF);
+    margin: .3em 0;
+}
+
+.navlinks {
+    .flex(space-evenly, center);
+    .fontstyle(1.8em,#FFFFFF);
+    width:45%;
+    margin-bottom: .6em;
+}
+
+@media @phone {
+    .navlinks {
+        width:90%;
+    }
+}
+
+
