@@ -161,7 +161,7 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   background-color: #170617;
@@ -191,7 +191,14 @@ p {
   color: #FFFFFF;
   width: 45%;
   margin-bottom: 0.6em;
+}
+.navlinks a {
   text-decoration: none;
+}
+.navlinks a:link,
+.navlinks a:visited,
+.navlinks a:active {
+  color: white;
 }
 @media (max-width:500px) {
   .navlinks {
@@ -199,7 +206,7 @@ p {
   }
 }
 footer {
-  color: #22283B;
+  color: #0062ff;
   background: #f4f4f4;
   padding: 20px 0;
   border: 1px double #e0e0e0;
