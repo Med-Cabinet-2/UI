@@ -137,24 +137,12 @@ table {
 html {
   font-size: 62.5%;
 }
-html,
-body {
-  font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Russo One', sans-serif;
-  color: #23293B;
-}
 h2 {
   font-size: 3.2rem;
 }
 h3 {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
+  font-weight: bold;
 }
 p {
   font-size: 1.6rem;
@@ -164,7 +152,7 @@ p {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  background-color: #170617;
+  background-color: grey;
 }
 .navb {
   display: flex;
@@ -172,6 +160,7 @@ p {
   align-items: center;
   flex-direction: column;
   background-color: #0B300B;
+  font-family: 'Spartan', sans-serif;
 }
 .med2cabinet {
   font-size: 4em;
@@ -189,7 +178,7 @@ p {
   align-items: center;
   font-size: 1.8em;
   color: white;
-  width: 45%;
+  width: 60%;
   margin-bottom: 0.6em;
 }
 .navlinks a {
@@ -202,11 +191,12 @@ p {
 }
 @media (max-width:500px) {
   .navlinks {
-    width: 90%;
+    width: 100%;
   }
 }
 footer {
   color: #0062ff;
+  font-family: 'Chakra Petch', sans-serif;
   font-weight: bold;
   background: #f4f4f4;
   padding: 20px 0;
@@ -216,15 +206,19 @@ footer {
   align-items: center;
 }
 .home .intro {
-  margin: 0px 0px 0px 0px;
-  color: red;
+  color: lime;
+  font-weight: bold;
+  font-family: 'Spartan', sans-serif;
 }
 .home .intro h2 {
   color: white;
   padding: 15px;
+  text-decoration: underline;
+  margin-left: 2%;
 }
 .home .intro p {
-  padding: 0 15px;
+  padding: 10px 15px;
+  margin-left: 2%;
 }
 .home .cann-images {
   display: flex;
@@ -234,6 +228,7 @@ footer {
 .home .cann-images img {
   width: 28%;
   margin: 20px 2.5%;
+  border: 5px solid black;
   border-radius: 20px;
   height: 100%;
 }
@@ -244,15 +239,23 @@ footer {
   padding: 15px;
 }
 .home .site-descript h3 {
+  font-family: 'Spartan', sans-serif;
   color: white;
   margin-top: 11px;
+  text-decoration: underline;
+  margin-left: 2%;
+  margin-bottom: 3%;
 }
 .home .site-descript p {
+  color: lime;
+  font-weight: bold;
+  font-family: 'Spartan', sans-serif;
   margin-top: 13px;
+  margin-left: 2%;
 }
 .home .signup-info {
   margin-top: 60px;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid white;
   padding: 50px 60px;
   display: flex;
   justify-content: center;
@@ -263,9 +266,17 @@ footer {
 .home .signup-info .signup-text h3 {
   margin-bottom: 10px;
   color: white;
+  font-family: 'Spartan', sans-serif;
+  text-decoration: underline;
+  margin-left: -4%;
+  margin-bottom: 5%;
 }
 .home .signup-info .signup-text p {
+  color: lime;
+  font-weight: bold;
+  font-family: 'Spartan', sans-serif;
   margin-bottom: 26px;
+  margin-left: -4%;
 }
 .home .signup-info .signup-text .btn {
   border: 1px solid black;
