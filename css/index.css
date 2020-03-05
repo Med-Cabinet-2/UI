@@ -306,6 +306,16 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+form {
+  font-size: 2rem;
+  text-decoration: underline;
+  color: black;
+  font-family: 'Spartan', sans-serif;
+  margin-left: 35%;
+}
+form li {
+  padding: 1.5rem 0rem;
+}
 /* Mobile Styling */
 @media (max-width:500px) {
   #cann2 {
