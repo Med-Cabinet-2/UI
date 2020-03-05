@@ -1,0 +1,174 @@
+// Home Content
+
+.home {
+
+  .intro {
+    .paragraphstyle(lime, bold, @spartan);
+  
+    h2 {
+      .whiteunderline(underline, white, @spartan);
+      padding: 15px;
+      margin-left: 2%;
+    }
+    p {
+      padding:10px 15px;
+    margin-left: 2%;
+    }
+  }
+
+  .cann-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    img {
+      width: 28%;
+      margin: 20px 2.5%;
+      border: 5px solid black;
+      border-radius: 20px;
+      height: 100%;
+    }
+  }
+
+.headerimg {
+margin: 10px 0px;
+}
+
+  .site-descript {
+    padding: 15px;
+
+    h3 {
+      .whiteunderline(underline, white, @spartan);
+      margin-top: 11px;
+      margin-left: 2%;
+      margin-bottom: 3%;
+    }
+
+    p {
+      .paragraphstyle(lime, bold, @spartan);
+      margin-top: 13px;
+      margin-left: 2%;
+      margin-bottom: -4%;
+    }
+  }
+
+  .signup-info {
+    
+    margin-top: 60px;
+    border-top: 1px solid white;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+
+    .signup-text {
+      width: 50%;
+
+      h3 {
+        .whiteunderline(underline, white, @spartan);
+        margin-bottom: 10px;
+        margin-left: -4%;
+        margin-bottom: 5%;
+      }
+
+      p {
+        .paragraphstyle(lime, bold, @spartan);
+        margin-bottom: 26px;
+        margin-left: -4%;
+      }
+
+      .btn {
+        .btn-style(1px solid black, @btn-bg-color);
+        border-radius: 8px;
+        color: white;
+        text-align: center;
+        width:80%;
+        height: 30%;
+        padding-top: 5%;
+        font-size:5rem;
+        a {
+        text-decoration: none;
+        }
+        a:link, a:visited, a:active{
+          color: @nav-font;
+      }
+      }
+      .btn:hover {
+        background-image: linear-gradient(red, yellow);
+      }
+    }
+
+    .sign-img {
+      width: 46%;
+      margin-left: 4%;
+      
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+    }
+  }
+}// home
+
+//Contact form
+
+form {
+  font-size: 2rem;
+  .whiteunderline(none, black, @spartan);
+  margin-left: 40%;
+  li {
+    padding: 1.5rem 0rem;
+  }
+
+}
+
+
+
+
+/* Mobile Styling */
+
+@media @phone {
+#headerimg{
+  
+}
+
+ #cann2{
+   display: none;
+ }
+ #cann3{
+   display: none;
+ }
+ #cann1{
+   width:100%;
+ }
+ 
+  #signup-info {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top:20px;
+    padding:10px 10px;
+    width:100%;
+  }
+  #signup-text {
+    width:100%;
+    padding:10px 20px;
+  }
+  #sign-img {
+    width:100%;
+    margin-left:0%;
+    margin-bottom: 4%;
+    margin-top: 1%;
+  }
+  #btn {
+    width:100%;
+    height:50px;
+    padding-top: 3.5%;
+    border-radius: 0px;
+    font-size:1.8rem;
+  }
+  #mobileform{
+    margin-left: 20%;
+    text-decoration: none;
+  }
+}
+

@@ -1,0 +1,358 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: grey;
+}
+.navb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0B300B;
+  font-family: 'Spartan', sans-serif;
+}
+.med2cabinet {
+  font-size: 4em;
+  color: white;
+  margin: 0.3em 0;
+  display: flex;
+}
+.med2cabinet h1 {
+  color: white;
+  font-family: 'Play', sans-serif;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.8em;
+  color: white;
+  width: 60%;
+  margin-bottom: 0.6em;
+}
+.navlinks a {
+  text-decoration: none;
+}
+.navlinks a:link,
+.navlinks a:visited,
+.navlinks a:active {
+  color: white;
+}
+@media (max-width:500px) {
+  .navlinks {
+    width: 100%;
+  }
+}
+footer {
+  color: #0062ff;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .intro {
+  color: lime;
+  font-weight: bold;
+  font-family: 'Spartan', sans-serif;
+}
+.home .intro h2 {
+  text-decoration: underline;
+  color: white;
+  font-family: 'Spartan', sans-serif;
+  padding: 15px;
+  margin-left: 2%;
+}
+.home .intro p {
+  padding: 10px 15px;
+  margin-left: 2%;
+}
+.home .cann-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home .cann-images img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border: 5px solid black;
+  border-radius: 20px;
+  height: 100%;
+}
+.home .headerimg {
+  margin: 10px 0px;
+}
+.home .site-descript {
+  padding: 15px;
+}
+.home .site-descript h3 {
+  text-decoration: underline;
+  color: white;
+  font-family: 'Spartan', sans-serif;
+  margin-top: 11px;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+.home .site-descript p {
+  color: lime;
+  font-weight: bold;
+  font-family: 'Spartan', sans-serif;
+  margin-top: 13px;
+  margin-left: 2%;
+  margin-bottom: -4%;
+}
+.home .signup-info {
+  margin-top: 60px;
+  border-top: 1px solid white;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: center;
+}
+.home .signup-info .signup-text {
+  width: 50%;
+}
+.home .signup-info .signup-text h3 {
+  text-decoration: underline;
+  color: white;
+  font-family: 'Spartan', sans-serif;
+  margin-bottom: 10px;
+  margin-left: -4%;
+  margin-bottom: 5%;
+}
+.home .signup-info .signup-text p {
+  color: lime;
+  font-weight: bold;
+  font-family: 'Spartan', sans-serif;
+  margin-bottom: 26px;
+  margin-left: -4%;
+}
+.home .signup-info .signup-text .btn {
+  border: 1px solid black;
+  background-color: #22283A;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  width: 80%;
+  height: 30%;
+  padding-top: 5%;
+  font-size: 5rem;
+}
+.home .signup-info .signup-text .btn a {
+  text-decoration: none;
+}
+.home .signup-info .signup-text .btn a:link,
+.home .signup-info .signup-text .btn a:visited,
+.home .signup-info .signup-text .btn a:active {
+  color: white;
+}
+.home .signup-info .signup-text .btn:hover {
+  background-image: linear-gradient(red, yellow);
+}
+.home .signup-info .sign-img {
+  width: 46%;
+  margin-left: 4%;
+}
+.home .signup-info .sign-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+form {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  font-family: 'Spartan', sans-serif;
+  margin-left: 40%;
+}
+form li {
+  padding: 1.5rem 0rem;
+}
+/* Mobile Styling */
+@media (max-width:500px) {
+  #cann2 {
+    display: none;
+  }
+  #cann3 {
+    display: none;
+  }
+  #cann1 {
+    width: 100%;
+  }
+  #signup-info {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 100%;
+  }
+  #signup-text {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  #sign-img {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 4%;
+    margin-top: 1%;
+  }
+  #btn {
+    width: 100%;
+    height: 50px;
+    padding-top: 3.5%;
+    border-radius: 0px;
+    font-size: 1.8rem;
+  }
+  #mobileform {
+    margin-left: 20%;
+    text-decoration: none;
+  }
+}

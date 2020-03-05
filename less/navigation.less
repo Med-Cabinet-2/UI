@@ -1,0 +1,40 @@
+
+.navb {
+    .flex(space-between, center);
+    flex-direction: column;
+    background-color: @nav-bg;
+    font-family: 'Spartan', sans-serif;
+
+}
+
+.med2cabinet {
+    h1{
+        color: @nav-font;
+        font-family: 'Play', sans-serif;
+    }
+    .fontstyle(4em, @nav-font);
+    margin: .3em 0;
+    display: flex;
+
+}
+
+.navlinks {
+    .flex(space-evenly, center);
+    .fontstyle(1.8em, @nav-font);
+    width:60%;
+    margin-bottom: .6em;
+    a {
+    text-decoration: none;
+}
+a:link, a:visited, a:active{
+    color: @nav-font;
+}
+}
+
+@media @phone {
+    .navlinks {
+        width:100%;
+    }
+}
+
+
