@@ -318,6 +318,13 @@ form li {
 }
 /* Mobile Styling */
 @media (max-width:500px) {
+  body {
+    overflow-x: hidden;
+  }
+  #headerimg img {
+    width: 80%;
+    margin-left: 10%;
+  }
   #cann2 {
     display: none;
   }
