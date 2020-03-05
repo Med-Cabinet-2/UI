@@ -175,12 +175,12 @@ p {
 }
 .med2cabinet {
   font-size: 4em;
-  color: #FFFFFF;
+  color: white;
   margin: 0.3em 0;
   display: flex;
 }
 .med2cabinet h1 {
-  color: #FFFFFF;
+  color: white;
   font-family: 'Play', sans-serif;
 }
 .navlinks {
@@ -188,7 +188,7 @@ p {
   justify-content: space-evenly;
   align-items: center;
   font-size: 1.8em;
-  color: #FFFFFF;
+  color: white;
   width: 45%;
   margin-bottom: 0.6em;
 }
@@ -207,13 +207,17 @@ p {
 }
 footer {
   color: #0062ff;
+  font-weight: bold;
   background: #f4f4f4;
   padding: 20px 0;
   border: 1px double #e0e0e0;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  margin: 0px 0px 0px 0px;
+  color: red;
 }
 .home .intro h2 {
   color: white;
@@ -232,6 +236,9 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+.home .headerimg {
+  margin: 10px 0px;
 }
 .home .site-descript {
   padding: 15px;

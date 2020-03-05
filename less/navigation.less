@@ -9,10 +9,10 @@
 
 .med2cabinet {
     h1{
-        color:#FFFFFF;
+        color: @nav-font;
         font-family: 'Play', sans-serif;
     }
-    .fontstyle(4em,#FFFFFF);
+    .fontstyle(4em, @nav-font);
     margin: .3em 0;
     display: flex;
 
@@ -20,14 +20,14 @@
 
 .navlinks {
     .flex(space-evenly, center);
-    .fontstyle(1.8em,#FFFFFF);
+    .fontstyle(1.8em, @nav-font);
     width:45%;
     margin-bottom: .6em;
     a{
     text-decoration: none;
 }
 a:link, a:visited, a:active{
-    color: white;
+    color: @nav-font;
 }
 }
 
