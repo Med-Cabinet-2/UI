@@ -114,11 +114,12 @@ margin: 10px 0px;
 
 form {
   font-size: 2rem;
-  .whiteunderline(underline, black, @spartan);
-  margin-left: 35%;
+  .whiteunderline(none, black, @spartan);
+  margin-left: 40%;
   li {
     padding: 1.5rem 0rem;
   }
+
 }
 
 
@@ -127,6 +128,10 @@ form {
 /* Mobile Styling */
 
 @media @phone {
+#headerimg{
+  
+}
+
  #cann2{
    display: none;
  }
@@ -137,8 +142,6 @@ form {
    width:100%;
  }
  
- 
- 
   #signup-info {
     display: flex;
     flex-direction: column-reverse;
@@ -148,6 +151,7 @@ form {
   }
   #signup-text {
     width:100%;
+    padding:10px 20px;
   }
   #sign-img {
     width:100%;
@@ -160,6 +164,11 @@ form {
     height:50px;
     padding-top: 3.5%;
     border-radius: 0px;
+    font-size:1.8rem;
+  }
+  #mobileform{
+    margin-left: 20%;
+    text-decoration: none;
   }
 }
 

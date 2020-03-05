@@ -308,10 +308,10 @@ footer {
 }
 form {
   font-size: 2rem;
-  text-decoration: underline;
+  text-decoration: none;
   color: black;
   font-family: 'Spartan', sans-serif;
-  margin-left: 35%;
+  margin-left: 40%;
 }
 form li {
   padding: 1.5rem 0rem;
@@ -336,6 +336,7 @@ form li {
   }
   #signup-text {
     width: 100%;
+    padding: 10px 20px;
   }
   #sign-img {
     width: 100%;
@@ -348,5 +349,10 @@ form li {
     height: 50px;
     padding-top: 3.5%;
     border-radius: 0px;
+    font-size: 1.8rem;
+  }
+  #mobileform {
+    margin-left: 20%;
+    text-decoration: none;
   }
 }
