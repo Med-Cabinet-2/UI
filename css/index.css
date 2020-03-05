@@ -321,9 +321,13 @@ form li {
   body {
     overflow-x: hidden;
   }
+  #headerimg {
+    background-color: white;
+  }
   #headerimg img {
     width: 80%;
     margin-left: 10%;
+    border: 3px solid aqua;
   }
   #cann2 {
     display: none;
