@@ -285,6 +285,7 @@ footer {
   height: 30%;
   padding-top: 5%;
   font-size: 5rem;
+  margin-top: 15%;
 }
 .home .signup-info .signup-text .btn a {
   text-decoration: none;
@@ -311,10 +312,14 @@ form {
   text-decoration: none;
   color: black;
   font-family: 'Spartan', sans-serif;
-  margin-left: 40%;
+  font-weight: bold;
+  align-content: center;
 }
 form li {
   padding: 1.5rem 0rem;
+}
+form ul {
+  text-align: center;
 }
 /* Mobile Styling */
 @media (max-width:500px) {
@@ -345,9 +350,15 @@ form li {
     padding: 10px 10px;
     width: 100%;
   }
+  #site-descript h3 {
+    line-height: 4rem;
+  }
   #signup-text {
     width: 100%;
     padding: 10px 20px;
+  }
+  #signup-text h3 {
+    line-height: 4rem;
   }
   #sign-img {
     width: 100%;
@@ -361,9 +372,14 @@ form li {
     padding-top: 3.5%;
     border-radius: 0px;
     font-size: 1.8rem;
+    margin-top: -2%;
   }
   #mobileform {
-    margin-left: 20%;
     text-decoration: none;
+    margin: 15% 0 20% 0;
+    font-size: 3rem;
+  }
+  #mobileform li {
+    padding: 1.8rem;
   }
 }
